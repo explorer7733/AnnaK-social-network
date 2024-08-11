@@ -25,7 +25,7 @@ Access the application at http://localhost:3001
 
 To review "AnnaK-social-netwrok", you can click on the link to the walkthrough video below:
 
-[Link to my video](https://drive.google.com/file/d/1F1msvDtvTuKmYiVxCJfYloaN_XK75XC1/view)
+[Link to my video](https://drive.google.com/file/d/1srGCANeEjENkK1Na1VY41BijlM5_eDcY/view)
 
 ## Credits
 
