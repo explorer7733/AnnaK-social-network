@@ -11,10 +11,21 @@ const emails = [
     'rockstar@d.com',
 ];
 const thoughts = [
-    'Wonderfull weather today!',
-    'Painting "Primavera" is the best!',
-    'Grand Canyon is amazing!',
-    'Just came back from the "Scorpions" consert!',
+    {
+        thoughtText: 'Wonderfull weather today!',
+        username: 'rainbow',},
+
+    {
+        thoughtText: 'Art is amazing!',
+        username: 'artlover',},
+
+    {
+        thoughtText: 'Travelling is my favorite!',
+        username: 'traveller',},
+
+    {
+        thoughtText: 'Rockstar is the best!',
+        username: 'rockstar',},
 ];
 const reactions = [
     'Liked',
@@ -22,10 +33,30 @@ const reactions = [
     'Awesome',
     'Really great',
 ];
+const users = [
+    {
+        username: 'rainbow',
+        email: 'rainbow@a.com',},
+
+    {
+        username: 'artlover',
+        email: 'artlover@b.com',},
+
+    {
+        username: 'traveller',
+        email: 'traveller@c.com',},
+
+    {
+        username: 'rockstar',
+        email: 'rockstar@d.com',},
+
+]
+
 
 const getRandomUsername = () => names[Math.floor(Math.random() * names.length)];
 const getRandomEmail = () => emails[Math.floor(Math.random() * emails.length)];
-const getRandomThoughts = () => thoughts[Math.floor(Math.random() * thoughts.length)];
+const getUsers = () => users;
+const getRandomThoughts = () => thoughts;
 
 const getThoughtReaction = (int) => {
     if (int === 1) {
@@ -38,4 +69,4 @@ const getThoughtReaction = (int) => {
         return reactions[3];
     }
 };
-module.exports = { getRandomUsername, getRandomEmail, getRandomThoughts, getThoughtReaction };
+module.exports = { getRandomUsername, getRandomEmail, getRandomThoughts, getThoughtReaction, getUsers };
